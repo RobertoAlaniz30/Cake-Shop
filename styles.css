@@ -1,0 +1,104 @@
+body{
+
+    font-family: 'Quicksand', sans-serif;
+}
+section{
+    display: flex;
+    flex-direction: column;
+}
+header{
+    background-color: #98E8D9;
+    display: flex;
+    justify-content: end;
+    margin-bottom: 20px;
+}
+
+.cards-container{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    justify-content: center;
+    gap: 20px;
+    border-color: black 1px solid;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: #D4C6C8 1px solid;
+    border-radius: 8px;
+}
+div button{
+    width: 120px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 8px;
+    background-color: #98E8D9 ;
+
+}
+ul{
+    display: flex;
+    width: 45%;
+    justify-content: space-around;
+    gap: 1rem;
+}
+a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 180px
+    
+}
+img {
+    border-radius: 8px;
+    height: 300px;
+    width: 450px;
+    object-fit: cover;
+    
+
+}
+form{
+    margin-top: 50px;
+    margin-right: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form > select{
+    width: 520px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: #ACD9B2;
+
+}
+form > input{
+    width: 520px;
+    height: 40px;
+    margin-bottom: 12px;
+    border-radius: 8px;
+    background-color: #ACD9B2;
+}
+#submit{
+    margin-top: 20px;
+}
+.form-container{
+    display: flex;
+    justify-content:center;
+}
+.ubc-container{
+    margin-top: 44px;
+}
+#map{
+    margin-right: 100px;
+
+
+}
+.cards1{
+    border: 8px;
+    border-color: black ;
+}
+#logo{
+    width: 120px;
+    height: 110px;
+
+}
